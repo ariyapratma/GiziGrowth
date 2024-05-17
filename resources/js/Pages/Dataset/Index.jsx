@@ -99,7 +99,7 @@ const Index=(props)=>{
             </div>
         </div>
         <div className="px-5 flex items-center justify-between flex-wrap">
-            <form className="mt-5 p-0 w-64 border border-gray-700 bg-white focus:border-[#04724d] focus:border-[#04724d] focus:ring-[#04724d] focus:ring-[#04724d] flex items-center shadow-sm rounded-md"
+            <form className="mt-5 p-0 w-64 border border-gray-700 bg-white focus:border-[#04724d] focus:ring-[#04724d] flex items-center shadow-sm rounded-md"
                 onSubmit={()=>Inertia.get('/dataset', {search: searchKey})}
             >
                 <input type="search" name="search" id="searchData" placeholder="Cari daerah atau tahun" className='w-full h-8 pr-0 text-gray-700 border-none rounded-md focus:ring-white/0' onChange={(searchKey)=>setSearchKey(searchKey.target.value)}/>

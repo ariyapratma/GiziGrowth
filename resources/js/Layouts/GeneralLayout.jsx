@@ -7,7 +7,7 @@ export default function GeneralLayout(props) {
         // min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 shadow-xl
         // min-h-screen bg-gray-100
         <div className='min-h-screen bg-gray-100'>
-            <div className="w-full mx-auto px-4 sm:px-6 lg:px-40 h-16 flex items-center justify-between border border-solid border-b-gray-300 border-b-1 shadow shadow-md">
+            <div className="w-full mx-auto px-4 sm:px-6 lg:px-40 h-16 flex items-center justify-between border border-solid border-b-gray-300 border-b-1 shadow-md">
                 <Link href="/">
                     <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
                 </Link>

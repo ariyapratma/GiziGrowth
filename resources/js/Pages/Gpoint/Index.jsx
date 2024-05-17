@@ -47,7 +47,7 @@ const Index=(props)=>{
         </div>
 
         <div className="px-5 flex items-center justify-between flex-wrap">
-            <form className="mt-5 p-0 w-fit border border-gray-700 bg-white focus:border-[#04724d] focus:border-[#04724d] focus:ring-[#04724d] focus:ring-[#04724d] flex items-center shadow-sm rounded-md">
+            <form className="mt-5 p-0 w-fit border border-gray-700 bg-white focus:border-[#04724d] focus:ring-[#04724d] flex items-center shadow-sm rounded-md">
                 <input type="search" name="search" id="searchData" className='h-8 pr-0 text-gray-700 border-none rounded-md focus:ring-white/0' onChange={(e)=>setSearchEntry(e.target.value)}/>
                 <div className='p-1 m-1 bg-[#94c73f]/60 text-white hover:bg-[#b4e75f] rounded-md cursor-pointer'><AiOutlineSearch className='fill-black'/></div>
             </form>
